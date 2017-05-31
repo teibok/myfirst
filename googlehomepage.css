@@ -16,8 +16,6 @@ li {
 }
 
 .topright li {
-/*  height:8rem;
-  widht:auto;*/
   float:right;
   margin:3px;
   text-align:center;
@@ -31,42 +29,48 @@ li {
 
 #searchbar {
   display:block;
-  width:17rem;
+  width:34rem;
   height:3rem;
   margin:0 auto;
 }
 
 #searchbarinner {
-  height:3rem;
-  width:100%;
-  font-size:20px;
-  border:solid black 2px;
+  height:2.5rem;
+  width:30rem;
+  font-size:24px;
+  border:solid #f9f3f3 2px;
+  outline: none;/*required to "not" highlight the text box*/
 }
 
 #search-button {
   display:inline-block;
-  position:realtive;
+  position:relative;
   vertical-align: middle;
   float:right;
   right:3rem;
+  height:2.5rem;
+  width:3rem;
+  background: url("/home/teibok/Pictures/Screenshot from 2017-05-30 16-56-18.png") no-repeat center center;
 }
 
 .belowsearchbar {
-  width:100%;
+  display:inline-block;
   height:0.7rem;
   padding:1rem 0;
+  margin-left:25rem;
+  margin-bottom:5rem;
 }
 
 .belowsearchbar button {
-  displlay:block;
-  height:4rem;
+  display:inline-block;
+  height:2rem;
   width:15rem;
-  font-size:20px;
-  align-self: center;
+  font-size:16px;
+  font-weight:bold;
 }
 
 .left li, .right li {
-  display:block;
+  display:inline-block;
   margin:3rem 0 1rem 1rem;
 }
 

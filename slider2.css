@@ -1,0 +1,38 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+img {
+  height:500px;
+  width:700px;
+  float:left;/*very important*/
+  display: none;
+
+}
+
+.wrapper {
+  width:700px;
+  height:auto;
+  margin:0 auto;
+}
+
+.slider {
+  height:500px;
+  width:700px;
+  margin:30px auto;
+  overflow: hidden;
+}
+
+#next {
+  float:right;
+}
+
+#prev,#next {
+  display:inline-block;
+ padding:5px 10px;
+ margin-top:15px;
+ background-color:#f0f0f0;
+ text-decoration: none;
+ color:black;
+}

@@ -4,7 +4,7 @@ var e;
 var ff;
 var press=0;
 var index=0;
-var op="";
+
 
 $(document).ready(function (){
 /*Handling of Numbers part and clear*/
